@@ -1,0 +1,42 @@
+/* Write your code here. */
+.gallery-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100vh;
+  align-items: center;
+}
+.sub-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.thumbnailItems-cont {
+  display: flex;
+  flex-direction: row;
+  column-count: 8;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  list-style-type: none;
+}
+
+.image {
+  width: 90%;
+  padding: 2px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  padding: 2px;
+  color: #1e293b;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 2px;
+  color: #64748b;
+}
